@@ -32,7 +32,7 @@
 		}
 
 #banner{
-	padding: 1em 0 1em 0;
+	padding: 1em 0 2em 0;
 	background-image: url(../images/banner.jpg);
 	background-attachment: fixed;
 	background-position: top;
@@ -59,7 +59,7 @@
 	
 }
 
-.h1imagem{
+.tema{
 	margin-top: 150px;
 	margin-right: 300px;
 
@@ -69,71 +69,85 @@ html{
 	font-family: 'Montserrat', sans-serif;
 }
 .botao{
-	padding: 15px 80px 15px 80px;
 	float: left;
+	border-color: #FFFFFF;
+	margin-left: 333px;
+	background-color: transparent;
+	color: #FFFFFF;
+	
+
+}
+
+.botao a{
+	padding: 10 70 10 70;
+	display: inline-block;
+	color: inherit;
+	text-decoration:none;
+	font-size: 25px;
 	border-top-width: 1px;
 	border-right-width: 1px;
 	border-bottom-width: 1px;
 	border-left-width: 1px;
-	border-bottom-style: solid;
-	border-top-color: #FFFFFF;
-	border-right-color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
-	border-left-color: #FFFFFF;
-	margin-left: 20px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 25px;
-	
+	border-color: #FFFFFF;
+	border-style: solid;
+
+
+
+
 }
 
 #introduction{
-	padding: 2em 0 2em 0em;
-	text-align: right;
-
+	height: 280px;
+	width: 100%;
+	position:relative;
+	display: inline-block;
 	
 }
-.flex{
-	display: flex;
-	justify-content: space-between;
-
-}	
-
-.borda{
-	border-bottom-width: 2px;
-	border-bottom-color: #000000;
+.pcimg{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 15px;
 }
 
 .titulo1{
-	margin-right: 11em;
+	text-transform: uppercase;
+	color: #F18350; 
+	margin-left: 400px;
+	margin-top: 70px;
 	
 }
 h2{
 	font-size: 35px;
 	letter-spacing: 7px;
+	margin-top: 25px;
 	
 
 
 }
 .texto{
-	text-align: justify;
-	margin-left: 2em;
-	margin-right: 3em;
+	padding-right: 30px;
+	padding-left: 400px;
+	position: absolute;
+	
 
 }
 #opcoes{
-	padding: 0em 20em 0em 20em;
+	padding: 2em 20em 0em 20em;
 	color:#F18350;
-	height: 480.067;
+	
 	
 }
 
 #opcoes1{
-	padding: 5em 30em 0em 30em;
+	padding: 20px 30em 0em 30em;
 	color:#BD5353;
+
 	
 }
 
+.linha{
+		margin-top: 520px;
+}
 body{
 	
 	margin:0;
@@ -142,7 +156,7 @@ body{
 #imgHtml{
 	background-image: url(../images/html.png);
 	background-color: #D65B43;
-	margin-left: 35px;
+	margin-left: 37px;
 
 	
 }
@@ -209,10 +223,19 @@ body{
 	letter-spacing: 2px;
 	margin-left: 40px;
 	margin-top: 15px;
-	position: relative;
+	position: absolute;
 	border-radius: 7px;
 	padding: 10px 25px 10px 25px;
 
+
+}
+
+.botao1 a{
+	display: inline-block;
+	color: inherit;
+	text-decoration:none;
+	font-size: 12px;
+	
 
 }
 
@@ -252,24 +275,40 @@ body{
 	letter-spacing: 2px;
 	margin-left: 40px;
 	margin-top: 15px;
-	position: relative;
+	position: absolute;
 	border-radius: 7px;
 	padding: 10px 25px 10px 25px;
 
 
 }
-#footer{
-		clear: both;
-        position: relative;
-        z-index: 10;
-        height: 2em;
-        margin-top: -3em;
-		color: #d4e0ef;
-		background-color:#000000; 
-		opacity: 0.5;
-		text-align: right;
-		width: 100%;
-		
 
+.botao2 a{
+	display: inline-block;
+	color: inherit;
+	text-decoration:none;
+	font-size: 12px;
+}
+
+.botao3{
+	background-color:#000000;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	margin-left: 615px;
+	margin-top: 400px;
+	position: absolute;
+	border-radius: 7px;
+	padding: 10px 50px 5px 50px;
+
+
+
+    
+
+}
+
+.botao3 a{
+	display: inline-block;
+	color: inherit;
+	text-decoration:none;
+	font-size: 12px;
 
 }
